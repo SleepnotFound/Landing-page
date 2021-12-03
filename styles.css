@@ -1,5 +1,6 @@
 button{
     width: 100px;
+    height: 30px;
     background-color: #3882f6;
     color: white;
     font-weight: bold;
@@ -73,4 +74,42 @@ ul {
 h3 { 
     font-size: 36px;
     font-weight: bold;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 24px;
+    font-style:italic;
+}
+
+.quote p:nth-child(2) {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: small;
+}
+
+.user-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.text h4, p {
+    color: #e5e7eb;
+    font-size: small;
+    margin: 0;
+}
+
+.text h4 {
+    font-size: 24px;
+
 }
