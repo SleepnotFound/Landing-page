@@ -1,14 +1,56 @@
+button{
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
     background-color:#1f2937;
-    color: white;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 0 100px;
+}
+
+ul, .welcome p{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    gap: 20px;
     align-items: center;
+    gap: 20px;
 }
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color:#1f2937;
+}
+
+.welcome img{
+    width: 500px;
+    height: 300px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.welcome h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+
+
