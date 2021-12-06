@@ -15,6 +15,12 @@ button{
     border-radius: 8px;
 }
 
+a {
+    color: white;
+}
+a:visited {
+    color: lightpink;
+}
 
 .top {
     display: flex;
@@ -26,7 +32,7 @@ button{
     background-color:#1f2937;
     color: #f9faf8;
     font-size: 24px;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 ul, .welcome p{
@@ -44,8 +50,9 @@ ul {
 .welcome {
     display: flex;
     justify-content: space-between;
-    padding: 100px;
+    padding: 100px 200px;
     background-color:#1f2937;
+    font-size: 18px;
 }
 
 .welcome img{
@@ -57,6 +64,7 @@ ul {
     display: flex;
     flex-direction: column;
     color: white;
+    gap: 10px;
 }
 
 .welcome h2 {
@@ -80,9 +88,13 @@ ul {
 
 .cards {
     display: flex;
-    
     justify-content: space-evenly;
     margin: 0 200px;
+}
+
+.cards p {
+    color: black;
+    font-size: 18px;
 }
 
 h3 { 
@@ -96,15 +108,20 @@ h3 {
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
-    font-size: 24px;
-    font-style:italic;
+    padding: 50px 200px;
+}
+
+.quote p {
+    color: black;
+    font-style: italic;
+    font-size: 36px;
 }
 
 .quote p:nth-child(2) {
     align-self: flex-end;
     font-style: normal;
     font-weight: bold;
-    font-size: small;
+    font-size: 24px;
 }
 
 .user-email {
